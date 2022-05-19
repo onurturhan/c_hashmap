@@ -33,7 +33,7 @@ int hashmap_test_func(void* input, void* current)
 	return MAP_OK;
 }
 
-int main(char* argv, int argc)
+int main(int argc,  char* argv[])
 {
     int index;
     int error;
